@@ -5,6 +5,12 @@
     "description": "GPT-handlinger for å lukke avvik og foreslå tiltak i henhold til ISO 9001",
     "version": "1.0.0"
   },
+  "servers": [
+    {
+      "url": "https://localhost:3000",
+      "description": "Lokalt utviklingsmiljø"
+    }
+  ],
   "paths": {
     "/lukk-avvik": {
       "post": {
