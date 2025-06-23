@@ -7,8 +7,8 @@
   },
   "servers": [
     {
-      "url": "https://localhost:3000",
-      "description": "Lokalt utviklingsmiljø"
+      "url": "https://example.com",
+      "description": "Eksemplarisk server for API"
     }
   ],
   "paths": {
