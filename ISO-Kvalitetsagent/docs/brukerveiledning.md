@@ -1,3 +1,2 @@
 # brukerveiledning.md
-
-(Denne filen er en mal eller skal fylles ut senere)
+[brukerveiledning.md](https://github.com/user-attachments/files/20863375/brukerveiledning.md)
