@@ -7,8 +7,8 @@
   },
   "servers": [
     {
-      "url": "https://example.com",
-      "description": "Eksemplarisk server for API"
+      "url": "https://api.example.com",
+      "description": "Eksempel server for API"
     }
   ],
   "paths": {
