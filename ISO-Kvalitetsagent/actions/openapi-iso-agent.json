@@ -1,5 +1,5 @@
 {
-  "openapi": "3.0.0",
+  "openapi": "3.1.0",
   "info": {
     "title": "ISO Kvalitetsagent Actions",
     "description": "GPT-handlinger for å lukke avvik og foreslå tiltak i henhold til ISO 9001",
