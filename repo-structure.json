@@ -1,1 +1,28 @@
-
+{
+  "repository": "ISO-Kvalitetsagent",
+  "description": "Struktur for GPT-agent basert på ISO 9001 og rotårsaksanalyse",
+  "structure": {
+    "docs/": {
+      "README.md": "Introduksjon til agenten",
+      "personvern.md": "Personvernerklæring for agenten",
+      "brukerveiledning.md": "Hvordan bruke GPT-agenten i kvalitetsarbeid"
+    },
+    "knowledge/": {
+      "ISO-9001-2015.md": "Hele ISO-standarden i markdown",
+      "ISO-9001-Veiledning.md": "Veiledning til ISO 9001 i markdown"
+    },
+    "actions/": {
+      "openapi-iso-agent.json": "Kombinert actions-fil for GPT-agent",
+      "lukk_avvik.json": "Action for lukking av avvik (isolert)",
+      "foresla_tiltak.json": "Action for foreslå tiltak (isolert)"
+    },
+    "templates/": {
+      "avvik-mal.yaml": "YAML-mal for et nytt avvik",
+      "statusrapport.yaml": "Eksempel på rapportformat"
+    },
+    ".github/": {
+      "ISSUE_TEMPLATE.md": "Mal for tilbakemeldinger og forbedringsforslag",
+      "workflows/ci.yml": "CI for testing av OpenAPI-struktur"
+    }
+  }
+}
