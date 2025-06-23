@@ -1,3 +1,28 @@
-# avvik-mal.yaml
+avvik_id: A-2025-001
+dato: 2025-06-23
+beskrivelse: >
+  Beskrivelse av avviket, f.eks. "Manglende gjennomføring av intern revisjon i henhold til plan".
+kritikalitet: Høy
+status: Åpen
+ansvarlig: Ola Nordmann
+frist: 2025-07-01
 
-(Denne filen er en mal eller skal fylles ut senere)
+rotårsak:
+  metode: 5-Why
+  analyse: >
+    Avvik oppsto fordi ansvar ikke var klart definert, og påminnelser ikke ble sendt.
+
+tiltak:
+  - Tydeliggjøre ansvar i revisjonsplan
+  - Automatisere påminnelser i ClickUp
+  - Revidere prosedyre 07-Kvalitetssystem
+
+dokumentasjon:
+  - møte-notat-2025-06-20.pdf
+  - prosedyre-07-revidert.md
+
+iso_krav:
+  punkt: "9.2.2"
+  beskrivelse: "Intern revisjon skal gjennomføres i henhold til plan"
+
+lukket_dato: null
