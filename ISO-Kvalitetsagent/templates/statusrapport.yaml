@@ -1,3 +1,36 @@
-# statusrapport.yaml
+rapport_dato: 2025-06-23
+periode: "2025-01-01 til 2025-06-23"
+antall_avvik:
+  totalt: 12
+  åpne: 4
+  lukket: 8
 
-(Denne filen er en mal eller skal fylles ut senere)
+oversikt_avvik:
+  - avvik_id: A-2025-001
+    beskrivelse: "Manglende gjennomføring av intern revisjon"
+    kritikalitet: Høy
+    status: Åpen
+    frist: 2025-07-01
+    ansvarlig: Ola Nordmann
+
+  - avvik_id: A-2025-002
+    beskrivelse: "Ufullstendig dokumentasjon i kvalitetsprosedyrer"
+    kritikalitet: Middels
+    status: Lukket
+    lukket_dato: 2025-04-15
+    ansvarlig: Kari Hansen
+
+  - avvik_id: A-2025-003
+    beskrivelse: "Mangler i leverandøroppfølging"
+    kritikalitet: Høy
+    status: Åpen
+    frist: 2025-07-15
+    ansvarlig: Ahmed Ali
+
+nøkkelpunkter:
+  - Flere kritiske avvik nær frist
+  - Forbedret dokumentkontroll etter tiltak
+  - Anbefaler månedlig statusmøte
+
+oppsummering:
+  "Det er gjort god fremdrift i lukking av avvik. Fokus fremover er ansvarliggjøring og tydeligere frister."
