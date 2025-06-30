@@ -1,0 +1,286 @@
+### 5.4 Face velocity test
+
+#### 5.4.1 Objectives
+The aim of the face velocity test as part of the commissioning testing is to verify the face velocity pattern compared to the type test result in order to check either correct installation of the fume cupboard or adverse effects of the room air conditions. Another aim should be to obtain a reference value for comparison in subsequent routine tests.
+
+#### 5.4.2 Test equipment and probe positions
+According to EN 14175-3:2003, 5.2.1 and 5.2.2.
+
+#### 5.4.3 Test procedure and test results
+The fume cupboard shall work with the intended working conditions. No other equipment than the test equipment shall be present inside the fume cupboard. The measurements and the calculation of the test results shall be performed at the type test opening(s) and at the actual air volume flow rate in accordance with EN 14175-3:2003, 5.2.3 and 5.2.4.
+
+If the air volume flow rate is other than that established in the type test, it shall be noted.
+
+> **NOTE:** Such a deviation can affect the face velocity pattern.
+
+#### 5.4.4 Test report
+The calculated test results and the deviation of these test results from those specified in the type test certificate shall be reported (see 9.1).
+
+---
+
+### 5.5 Extract volume flow rate test
+
+#### 5.5.1 Objectives
+The aim of the extract volume flow rate test as part of the commissioning testing is to verify the extract air volume flow compared to the intended volume flow and the correct installation of the fume cupboard. Additional purpose of the test is to obtain reference values for easy and fast routine testing (see Clause 6).
+
+The extract volume flow discharged from a fume cupboard can generally be measured according to ISO 5221. When the requirements for the use of this method are not fulfilled, one of the following methods can be applied.
+
+#### 5.5.2 Average face velocity method
+
+##### 5.5.2.1 Principle, test equipment and probe positions
+This method determines the extract volume flow by measuring the face volume flow in the sash opening by making sure that all the extract air is flowing through the sash opening. Test equipment and probe positions in accordance with EN 14175-3:2003, 5.2.1 and 5.2.2.
+
+##### 5.5.2.2 Preparation
+Any significant leakage, slit or opening of the fume cupboard, except of the test sash opening, shall be sealed by adhesive tape or appropriate air tight material. The sealing material shall be removed after the face velocity measurement.
+
+The test
+
+### 5.5.2.4 Expression of results
+Multiply the average face velocity at the sash opening with the area of the sash opening and report the resulting volume flow rate in m³/h together with the average face velocity, the sash area and the chosen sash opening.
+
+If the face velocity test according to 5.4 has been performed, a correlation factor for the face velocity of the sealed and non-sealed fume cupboard can be calculated and documented in the commissioning test report as reference value for subsequent routine testing (see 6.3).
+
+### 5.5.3 Calibrated pressure difference method
+
+#### 5.5.3.1 Principle and test equipment
+This method depends on the availability of manufacturer specified reference points. The method determines the extract volume flow by measuring the pressure difference between two reference points specified by the fume cupboard's manufacturer. Test equipment in accordance with EN 14175-3:2003, 5.6.2.
+
+#### 5.5.3.2 Positioning of pressure tap(s) and test procedure
+The test shall be carried out with the fume cupboard's sash(es) set at one of the type test sash opening(s) (see EN 14175-3:2003, 4.4.2). The pressure tap(s) shall be fitted to the reference point(s) specified and marked by the fume cupboard's manufacturer. Test procedure according to EN 14175-3:2003, 5.6.5.
+
+#### 5.5.3.3 Expression of results
+Take the extract volume flow corresponding to the measured pressure difference from the table or diagram supplied in the manufacturer's documentation. Report the measured pressure difference and the evaluated extract volume flow in m³/h together with the manufacturer's documentation identification and the reference measuring point(s).
+
+### 5.6 Pressure drop test
+
+#### 5.6.1 Objectives
+The aims of the pressure drop test as part of the commissioning testing are to obtain reference values for subsequent routine testing (see 6.4) and to verify the pressure drop at the current installation of the fume cupboard, compared to the intended pressure drop.
+
+#### 5.6.2 Test equipment and test procedure
+According to EN 14175-3:2003, 5.6.2 to 5.6.5. If the fume cupboard's installation allows, the pressure taps shall be positioned as specified in EN 14175-3:2003, 5.6.4.
+
+#### 5.6.3 Expression of results
+According to EN 14175-3:2003, 5.6.6. The pressure drop measured shall be documented in the commissioning test report (see 9.1) together with the corresponding extract volume flow rate. Differences from the type test and possible causes shall be reported.
+
+### 5.7 Air flow visualization
+
+#### 5.7.1 Objectives
+The aim of the air flow visualisation as part of the commissioning testing is to obtain qualitative information regarding room air flow and the interaction of the fume cupboard's air flow with the room air flow. Based on the test result, it should be decided whether subsequent tests, such as room air velocity test (see 5.8), are necessary.
+### 5.7.2 Test procedure
+Air flows around the installed fume cupboard and in the sash opening area should be visualized to check if there are any disturbances, e.g. by the room make-up air, that could affect the performance of the fume cupboard. Visualization shall be performed with generation of visible tracers, such as smoke, about 400 mm in front of the fume cupboard with release upwards to the ceiling. The density of the tracer shall be close to the room air density. The tracer shall be distributed with low impulse and not faster than 0.2 m/s.
+
+### 5.7.3 Expression of results
+Air movements around the working aperture shall be visualized and any kind of disturbance shall be documented in the commissioning test report (see 9.1).
+
+---
+
+### 5.8 Room air velocity test
+
+#### 5.8.1 Objectives
+The aim of the room air inspection as part of the commissioning testing is to quantify the air flow in the surroundings of the fume cupboard. Room air flows exceeding 0.2 m/s can cause reduced containment (see 5.10) of the fume cupboard. This test should be carried out alongside other tests.
+
+#### 5.8.2 Test equipment
+According EN 14175-3:2003, 5.2.1, with the exception that the anemometer shall be able to measure omnidirectional air speed.
+
+#### 5.8.3 Probe positions
+The measurements shall be performed in a vertical plane about 400 mm in front of the fume cupboard's plane of sash (see EN 14175-3:2003, 3.1). The anemometer probe shall be positioned at points formed by the intersection of lines on this measurement plane as follows:
+
+a) Two horizontal lines approx. 900 mm and 1400 mm above floor level.
+
+b) Five vertical lines, two of them aligned with the side walls of the fume cupboard, a third one in the middle between these two lines (aligned with the centre of the fume cupboard) and another two ones approx. 250 mm to the left and to the right of the side wall aligned lines.
+
+#### 5.8.4 Test procedure and test results
+The sash of the fume cupboard shall be set to one of the test sash openings (see EN 14175-3:2003, 4.4.2).
+
+The mean speed in meter per second at each measurement point shall be calculated and the result rounded to the second decimal place.
+
+### 5.9 Alarm system
+### 5.10 Containment test
+
+#### 5.10.1 Objectives
+The aim of a containment test as part of the commissioning testing is to verify the correct function of the fume cupboard at the place of installation by quantification of the containment under the prevailing working conditions.
+
+#### 5.10.2 Test equipment, test procedure and data analysis
+According EN 14175-3:2003, 5.3. The containment test can either be performed in the inner measurement plane, or in the outer measurement plane or in both planes (see EN 14175-3:2003, 5.3.3 and 5.3.4).
+
+The test equipment shall be according to EN 14175-3, 5.3.1 with the following exception: detection level of the gas analyser may be ≤ 2.5 × 10⁻⁸ instead of ≤ 10⁻⁸.
+
+#### 5.10.3 Test report
+The calculated test results and the deviation of these test results from those specified in the type test certificate shall be reported (see 9.1).
+
+---
+
+### 5.11 Sound pressure measurement
+
+#### 5.11.1 Objectives
+The aim of the sound pressure measurement is to provide the user with the sound pressure levels when the fume cupboard is in use.
+
+#### 5.11.2 Test procedure
+The measurement of the sound pressure level should be performed as A weighted sound pressure level in dB(A) using a sound level meter conforming to EN 61672-1 in the following position in front of the fume cupboard which should be equipped for the intended use:
+
+- 150 cm height from the ground floor,
+- 30 cm in front of the sash plane,
+- in the center of the plane parallel to the sash plane.
+
+The sound level meter shall be calibrated in accordance with the manufacturer’s instructions. The measurement method shall be in accordance with EN ISO 11202.
+
+#### 5.11.3 Test report
+The result of measurement and the position of the sash shall be reported in the on-site test report as A weighted sound pressure level.
+
+---
+
+### 6 Routine testing of type tested fume cupboards
+
+#### 6.1 Scope and purpose
+The following test methods are considered to be appropriate for the routine test of a fume cupboard which has been type tested in accordance with EN 14175-3 before installation. It is assumed that the fume cupboard has been commissioning tested after installation according to Clause 5 and that a commissioning test report according to 9.1 is available.
+### 6.2 Face velocity test
+
+#### 6.2.1 Objectives
+The aim of the face velocity test in the routine testing is to determine any variation from the type test and/or commissioning test results.
+
+#### 6.2.2 Test equipment and test procedure
+An anemometer with a measuring range suitable for the fume cupboard under test and capable of measuring air velocities with an accuracy of 10% shall be used. The fume cupboard shall be operating under actual working conditions.
+
+The probe positions shall be as in EN 14175-3:2003, 5.2.2. For vertical sashes the measurements shall be performed in all points in the horizontal middle row in the inner measurement plane (if the number of rows are even, the one above the centre). For horizontal sashes the measurements shall be performed at all points in the vertical middle row in the inner measurement plane (if the number of rows is even, choose one and report the position). Measurements shall be made at each probe position for at least 30 s.
+
+#### 6.2.3 Test report
+Calculate the average velocity in m/s and round the result to the second decimal place.
+
+---
+
+### 6.3 Extract volume flow rate test
+
+#### 6.3.1 Objectives
+The aim of the extract volume flow rate test as part of the routine test is to verify whether the extract volume flow rate is maintained, using one of the methods described in 5.5 or the method in 6.3.2. The sealing of the fume cupboard’s leakages (see 5.5.2.2) is not necessary, provided a correlation factor for the sealed and non-sealed face velocity has been established for the methods and conditions used.
+
+#### 6.3.2 Sequential average face velocity test
+
+##### 6.3.2.1 Principle, test equipment and probe positions
+This method determines the extract volume flow rate by measuring the face velocity in the sash opening of a fume cupboard using an anemometer. The anemometer shall be of an integrating type and shall be capable of measuring unidirectional air velocities down to 0.3 m/s or better. The accuracy of an individual reading shall be better than 0.02 m/s + 5% of the reading. The anemometer should also be able to calculate the results in terms of air volume flow rates.
+
+##### 6.3.2.2 Test procedure and test results
+The test should be carried out with the fume cupboard’s sash set to a sash opening of 100 mm.
+
+The test is to be carried out within the resulting area of opening. The anemometer shall be continuously oriented so that the velocity component perpendicular to the plane of opening is measured. Move the anemometer using a constant speed to scan the length of the opening. The time for scanning and integrating should be 60 s.
+##### 6.3.2.3 Test report
+Note the measurement value in meter per second. Multiply the average face velocity at the opening plane with the area of the opening plane and report the resulting volume flow rate in cubic meter per hour together with the average face velocity and the opening plane’s area.
+
+---
+
+### 6.4 Pressure drop test
+According to 5.6.
+
+---
+
+### 6.5 Air flow visualization
+According to 5.7.
+
+---
+
+### 6.6 Alarm system test
+According to 5.9.
+
+---
+
+### 6.7 Inspections
+Appropriate inspections according to 5.2 should be performed. In addition, work surface damages and corrosion should be inspected.
+
+---
+
+### 7 Qualification testing of non type tested fume cupboards
+
+#### 7.1 Scope and purpose
+The following test methods are considered to be appropriate for the test after installation of a fume cupboard which has not been type tested. The test is intended for qualification, that the safety and performance requirements of the fume cupboard, specified in Part 2 of this European Standard, are fulfilled in its particular installation environment. The final extent of the qualification test should be specified by the party responsible for the qualification of the fume cupboard.
+
+#### 7.2 Inspections
+According to 5.2 where appropriate.
+
+#### 7.3 Manufacturer's declarations
+According to 5.3 where appropriate.
+
+#### 7.4 Face velocity test
+According to EN 14175-3:2003, 5.2 where appropriate.
+
+#### 7.5 Extract volume flow rate test
+According to 5.5 where appropriate.
+
+#### 7.6 Pressure drop test
+According to 5.6 where appropriate.
+
+#### 7.7 Air flow visualization
+According to 5.7. In addition, air movements through any other opening of the fume cupboard than the sash opening should be visualized and documented in the qualification test report (see 9.3).
+#### 7.8 Room air velocity test
+According to 5.8 where appropriate.
+
+#### 7.9 Alarm system test
+According to 5.9 where appropriate.
+
+#### 7.10 Containment test
+According to 5.10 where appropriate.
+
+#### 7.11 Robustness of containment
+A robustness test according to EN 14175-3:2003, 5.4, should be included in the qualification test when the circumstances at the installation place of the fume cupboard allow for it. The procedure shall be adjusted according to the installation place and the on-site conditions in the laboratory and any deviation from the type test procedure shall be documented in the qualification test report (see 9.3).
+
+#### 7.12 Air exchange efficiency
+According to EN 14175-3:2003, 5.5 where appropriate.
+
+#### 7.13 Sound pressure measurement
+According to 5.11.
+
+#### 7.14 Illuminance test
+According to EN 14175-3:2003, Clause 9, where appropriate.
+
+---
+
+### 8 Routine testing of qualified fume cupboards
+According to Clause 6. It is required that the fume cupboard has been qualified after installation according to Clause 7.
+
+---
+
+### 9 On-site test reports
+
+#### 9.1 Test report for commissioning testing of type tested fume cupboards (see Clause 5)
+The commissioning test report shall include the following items as a minimum:
+
+a) the name and/or trade mark of the fume cupboard's manufacturer and/or supplier;  
+b) the type designation including the year of production;  
+c) the date of commissioning testing and the reference to the type test report;  
+d) the general room air conditions during air flow tests, including temperature, barometric pressure, air humidity and pressure difference between room and the adjacent space as well as make-up air and room extract air;  
+e) the status of fume cupboards and other extract devices in the room and the specific position of the tested fume cupboard;  
+f) the results of the inspections (see 5.2);
+g) the results of the tests performed during the commissioning testing in accordance with the test result requirements specified for each test (see 5.4 to 5.11);
+
+h) a reference to this document EN 14175-4 and the test method(s) from this document which has/have been performed.
+
+> Those test results intended to serve as reference values for subsequent routine testing should be documented in an additional table under the header \"Reference values for routine testing\".
+
+---
+
+### 9.2 Test report for routine testing of type tested fume cupboards (see Clause 6)
+The routine test report shall include the following items as a minimum:
+
+a) individual identification number of the fume cupboard and date of test;  
+b) the reference to the type test report, the commissioning test report and the last routine test report, if available;  
+c) the general room air conditions during air flow tests, including temperature, barometric pressure, air humidity and pressure difference between room and the adjacent space as well as make-up air and room extract air;  
+d) the status of fume cupboards and other extract devices in the room and the specific position of the tested fume cupboard;  
+e) the results of the inspections (see 6.7);  
+f) the results of the tests performed during the routine testing in accordance with the test result requirements specified for each test (see 6.2 to 6.6);  
+g) a reference to this document EN 14175-4 and the test method(s) from this document which has/have been performed.
+
+---
+
+### 9.3 Test report for qualification testing of non type tested fume cupboards (see Clause 7)
+According to 9.1 as far as applicable.
+
+---
+
+### 9.4 Test report for routine testing of qualified fume cupboards (see Clause 8)
+The routine test report shall include the following items as a minimum:
+
+a) individual identification number of the fume cupboard and date of test;  
+b) the date of qualification testing, the reference to the qualification test report and the last routine test report, if available;  
+c) the general room air conditions during air flow tests, including temperature, barometric pressure, air humidity and pressure difference between room and the adjacent space as well as make-up air and room extract air;  
+d) the status of fume cupboards and other extract devices in the room and the specific position of the tested fume cupboard;  
+e) the results of the inspections (see 6.7);  
+f) the results of the tests performed during the routine testing in accordance with the test result requirements specified for each test (see Clause 6);  
+g) a reference to this document EN 14175-4 and the test method(s) from this document which has/have been performed.
