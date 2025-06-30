@@ -1,0 +1,60 @@
+# READMEE_NS_ISO_31000_Risikostyring
+
+## Om prosjektet
+
+Dette prosjektet inneholder en komplett, strukturert og maskinlesbar versjon av **NS-ISO 31000:2018 Risikostyring – Retningslinjer** på norsk, konvertert til markdown-format for bruk i AI, dokumentasjon, kunnskapsbase eller prosessforbedring.
+
+Konverteringen følger prinsippene:
+- All tekst og struktur fra originalen er bevart
+- Overskrifter, lister og seksjoner brukes for lesbarhet og gjenbruk
+- Overflødig layout/grafikk fjernet
+- Filene navngitt etter prosjekt, innholdstype og dato
+
+## Filstruktur
+
+- `ns-iso31000-2018_fulltekst.md` – Hovedfilen med hele standarden i detalj, kapittel for kapittel
+- `READMEE_NS_ISO_31000_Risikostyring.md` – Denne README-filen
+
+## Innhold i markdown-filen
+
+- **Forord**
+- **Orientering**
+- **Risikostyring – Retningslinjer**
+    - Omfang
+    - Normative referanser
+    - Termer og definisjoner
+- **Prinsipper**
+- **Rammeverk** (med alle underpunkter)
+- **Prosess** (kommunikasjon, risikovurdering, håndtering, rapportering osv.)
+
+## Bruksområder
+
+- Import til AI-systemer, LLM/Wiki
+- Kilde for prosjektstyring og kvalitetssystemer
+- Internt oppslagsverk i organisasjonen
+- Tilrettelegging for opplæring, revisjon og samsvarsvurdering
+
+## Hvordan bruke filen
+
+1. Kopier eller importer markdown-filen der du trenger det – wiki, Notion, Confluence, Git-repo, AI, etc.
+2. Naviger med seksjonsinndeling og lenking.
+3. Filen kan enkelt tilpasses, filtreres eller utvides etter behov.
+
+## Opphav og konvertering
+
+- **Kilde:** NS-ISO 31000:2018 (Standard Norge)
+- **Konvertert:** 2025-06-30
+- **Av:** Konverteringsagent (AI-sekretær)
+
+> **NB:**  
+> Dette er en intern, strukturert kopi til bruk for læring, analyse og virksomhetsutvikling. For offisielle og juridiske forhold, benytt alltid originalversjonen fra Standard Norge.
+
+---
+
+### Kontakt/spørsmål
+
+Ved spørsmål eller behov for tilpasning:
+- Kontakt din Konverteringsagent/AI-sekretær
+- [Legg inn kontaktperson/epost her ved behov]
+
+---
