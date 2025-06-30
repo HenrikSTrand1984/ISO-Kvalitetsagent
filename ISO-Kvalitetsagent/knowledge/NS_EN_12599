@@ -212,3 +212,200 @@ The measuring methods and devices are described in D.8.
 Indoor air flow is usually a turbulent flow. The air velocity varies from place to place within the room, the variations being random with regard to magnitude and direction. Therefore, an exact measurement of the air velocity is complicated. Generally, it is sufficient to measure the mean air velocity at selected positions (see D.2.1).
 
 In rooms up to approximately 20 m² floor area, one measurement position is sufficient. Large rooms (e.g. landscaped offices) should be measured on the similar basis to the foregoing and positions in the occupied zone should be chosen where higher air velocities can be expected. Measurements should preferably be taken at positions intended for intensive occupancy, e.g. at the desk in an office.
+### 6.4.5 Measurement of air temperature
+Air temperature measurements may be required in the room, at the exhaust air terminal device or in the duct.
+
+When – due to high or low surface temperatures (windows, cooling/heating panels etc.) – thermal discomfort is suspected, it may be necessary to evaluate the operative temperature (see D.3.1).
+
+The measurement of the air temperature is described in D.3.
+
+---
+
+### 6.4.6 Measurement of the air humidity
+The measurements of the air humidity in the room provide information regarding the humidifying or dehumidifying operation of the system. In general, the relative humidity is measured. To calculate the absolute humidity it is also necessary to measure the air temperature at the same location.
+
+The use of recording instruments is necessary. The recording period shall last for 24 h at least.
+
+The measurement of the air humidity is described in D.4.
+
+---
+
+### 6.4.7 Measurement of the sound pressure level
+The A-weighted sound pressure level shall be determined at places of work. Corresponding conditions within the room are given in CR 1752.
+
+Outside the building, measurements of sound pressure level can be necessary at locations such as property boundaries or 0.5 m in front of a neighboring open window taking account of any special conditions.
+
+In all cases the background sound pressure level shall additionally be recorded when the system is not in operation. The measurement of the sound pressure level is described in D.5.
+
+---
+
+### 6.4.8 Measurement of the electrical power of the fan
+The electrical power (including auxiliary) consumed is measured either directly by a power meter (watt-meter) or indirectly from the electrical work (kWh-meter) performed by taking the electric meter readings before and after the test for a measured period of time.
+
+For three-phase motors the power is determined by the 2-watt-meter method. For single phase motors, the power is determined by the 1-watt-meter method.
+
+Specific requirements shall be considered when a frequency converter is being used.
+
+The measurement of the electrical power of the fan is described in D.6.
+
+---
+
+### 6.4.9 Measurement of the pressure difference at the air filter
+Check that the filter is properly installed and is seated with no visible leaks.
+
+The measurement of the pressure difference across the air filter is described in D.7.
+
+---
+
+## 6.5 Accompanying measurements
+The following data can be determined and registered if required in order to record the operating conditions during the functional test:
+
+- outdoor temperature and humidity,
+- hot and cold water temperature at the distributor or at the air heater and air cooler,
+## 7 Special measurements (see Annex E)
+
+### 7.1 General
+The measurements together with the appropriate measuring instruments can necessitate a considerable amount of work and associated costs. These require special contractual agreements which cover the nature and scope of performance.
+
+Special measurements are appropriate where functional measurements are not sufficient to verify the quality of the system in the desired range of accuracy.
+
+The programme of measurements, the parameters to be measured, the measuring instruments and the measuring points shall be agreed separately. The agreement should also cover the permitted uncertainty of the measured results. The agreement should be made before the particular system is installed. The work and cost involved in the measurements shall be commensurate with the requirements of the system. If the measuring uncertainty cannot be achieved for an acceptable cost, the client shall be informed with adequate notice before the measuring has commenced. The measurements should be performed only by persons possessing the necessary knowledge and experience.
+
+The measurements can be restricted to equipment or components in the system.
+
+It may be necessary to test the system during summer and winter operation.
+
+The operating mode during the measurements should, where possible, reflect the agreed conditions. If this is not the case, it shall be possible to deduce the design data. For certain components (e.g. heat exchanger, cooler), it is necessary to convert the measuring results to the design data.
+
+If operational or technical aspects do not permit a component or element to be measured when it is installed, then the item may be tested on a test bed.
+
+When judging the results of measuring in an air conditioned space the influence of physical characteristics of the building should be taken into account.
+
+For approval measuring instruments see E.1.
+
+---
+
+### 7.2 Parameters
+The measurement of the parameters is described in E.2.
+
+---
+
+### 7.3 Measurements of components
+
+#### 7.3.1 Fans
+
+##### 7.3.1.1 Measuring
+For testing a fan which forms part of an air-conditioning system the following data shall be determined:
+
+- air flow according to E.2.4,
+- total pressure difference according to E.2.1,
+- pressure and temperature in the measurement cross-section according to E.2.1 and E.2.2,
+- electric power according to E.2.7 and
+## 7 Special measurements (see Annex E)
+
+### 7.1 General
+The measurements together with the appropriate measuring instruments can necessitate a considerable amount of work and associated costs. These require special contractual agreements which cover the nature and scope of performance.
+
+Special measurements are appropriate where functional measurements are not sufficient to verify the quality of the system in the desired range of accuracy.
+
+The programme of measurements, the parameters to be measured, the measuring instruments and the measuring points shall be agreed separately. The agreement should also cover the permitted uncertainty of the measured results. The agreement should be made before the particular system is installed. The work and cost involved in the measurements shall be commensurate with the requirements of the system. If the measuring uncertainty cannot be achieved for an acceptable cost, the client shall be informed with adequate notice before the measuring has commenced. The measurements should be performed only by persons possessing the necessary knowledge and experience.
+
+The measurements can be restricted to equipment or components in the system.
+
+It may be necessary to test the system during summer and winter operation.
+
+The operating mode during the measurements should, where possible, reflect the agreed conditions. If this is not the case, it shall be possible to deduce the design data. For certain components (e.g. heat exchanger, cooler), it is necessary to convert the measuring results to the design data.
+
+If operational or technical aspects do not permit a component or element to be measured when it is installed, then the item may be tested on a test bed.
+
+When judging the results of measuring in an air conditioned space the influence of physical characteristics of the building should be taken into account.
+
+For approval measuring instruments see E.1.
+
+---
+
+### 7.2 Parameters
+The measurement of the parameters is described in E.2.
+
+---
+
+### 7.3 Measurements of components
+
+#### 7.3.1 Fans
+
+##### 7.3.1.1 Measuring
+For testing a fan which forms part of an air-conditioning system the following data shall be determined:
+
+- air flow according to E.2.4,
+- total pressure difference according to E.2.1,
+- pressure and temperature in the measurement cross-section according to E.2.1 and E.2.2,
+- electric power according to E.2.7 and
+- speed of rotation (rpm).
+
+The speed of rotation is usually measured with a tachometer, a stroboscope, or a pulse counter.
+
+---
+
+#### 7.3.1.2 Measurement uncertainty
+The air flow and total pressure difference shall be converted by calculation to density ρ = 1.2 kg/m³. The assessment should take account of the installed situation and the inflow conditions.
+
+The uncertainty shall be calculated in accordance with Clause 8.
+
+---
+
+### 7.3.2 Filters
+
+#### 7.3.2.1 Measuring
+For testing an installed filter the following data shall be measured:
+
+- air flow according to E.2.4,
+- velocity distribution at the filter using the network measurement in D.1.2 (determination of the velocity profile for air flow measurements), and
+- pressure drop according E.2.1.
+
+Check that the filter is properly installed and is seated with no visible leaks.
+
+For high efficiency particulate air filters of classes H and U, in accordance with EN 1822-1, evidence shall be provided that no leaks are present in the filter material, the joint between the filter and the frame and the frame itself.
+
+Depending on the installed situation of the filter two methods can be used to test such filters:
+
+- the oil thread test,
+- the particle count method.
+
+---
+
+#### 7.3.2.2 Measurement uncertainty
+The uncertainty of the measurements of the air flow, air velocities and the pressure drop shall be calculated in accordance with Clause 8.
+
+---
+
+### 7.3.3 Heat exchangers
+
+#### 7.3.3.1 General
+It is assumed that the characteristic curves of the heat exchanger (operation characteristic data) are available from which the heating or cooling of the air as a temperature difference or as a relative parameter (related to the maximum temperature difference) as a function of the other mass flow (e.g. water) - and the pressure drop on the air side as a function of air flow - can be seen.
+
+For air coolers, designed such that water condenses, the characteristic curves, under consideration of the humidity precipitation on the entire cooling surface, are - also for wet operation - decisive. In this case, enthalpies shall be used instead of temperatures.
+
+A heat recovery system is a type of heat exchanger, so the same rules as for heat exchangers apply analogously.
+
+Regenerative heat recovery systems which also transmit air humidity (category III according to EN 308) are characterised not only by the heating but also by the humidification
+#### 7.3.3.2 Measuring
+The following parameters shall be measured:
+
+- air flow and air temperature at inlet and outlet of the heat exchanger,
+- maximum deviation of air temperature from a mean value at inlet and outlet of the heat exchanger and
+- pressure drop of the air flow and the flow of heating medium or coolant.
+
+Additionally, the following should be measured:
+
+- in the case of air heaters, the flow rate of the heating medium and its cooling, and the air humidity at the air terminal device,
+- in the case of air coolers, the flow rate of the coolant and its heat gain, and also the reduction of humidity,
+- in the case of heat recovery systems with humidity transmission (category III according to EN 308), the increase of humidity (return humidity index),
+- in the case of regenerative heat recovery systems (categories II and III according to EN 308), the flow rate of the heat medium (e.g. also indirectly through the rotor rpm) and the power taken by the drive motor (e.g. for driving the rotor or a circulation pump).
+
+If the characteristic curves are available, it is sufficient to measure at a single operating point.
+
+If no characteristic curves are available and if the measured air flow rate differs greatly (> 30%) from the design rated value, then the heating index (return heating index) or the cooling index should be measured with at least three different air flow rates and converted by calculation to the design operating point. During this time, the other mass flow rate shall be held within the design region (± 20%).
+
+Measurements on air heaters before and after the humidifier are basically performed together with the humidifier (see 7.3.4). It is not necessary to make separate measurements on the individual heat exchangers and on the concurrently operated humidifier. This assumes that with uniform temperatures at the air inlet to the air heater the temperatures at the air outlet from the air heater do not vary over the cross-section by more than 10% from a mean value. In this case it is sufficient to measure the flow rate of the heating medium and its cooling at one of the heat exchangers. The heating power of the individual air heaters is calculated from the total heating power and the enthalpy differences taken from the \"h, x - diagram\", (see Figure 1).
+
+
