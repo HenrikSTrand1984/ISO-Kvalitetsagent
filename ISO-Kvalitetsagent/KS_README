@@ -1,0 +1,30 @@
+# 📦 ISO-Kvalitetsagent
+
+Denne GPT-agenten er laget for å støtte kvalitetsarbeid i henhold til ISO 9001:2015, inkludert avvikshåndtering, rotårsaksanalyse og dokumentert informasjon.
+
+## 🧠 Agentens egenskaper
+
+Denne GPT-agenten støtter kvalitetsarbeid med blant annet følgende funksjoner:
+
+- Utfører rotårsaksanalyser med flere metoder, blant annet:
+  - **5-Why (5-hvorfor)**: Enkel og effektiv metode for å finne grunnårsaken ved å stille «hvorfor?» flere ganger.
+  - **Ishikawa (Fiskebeinsdiagram)**: Visualiserer årsaker kategorisert i typiske områder som mennesker, maskiner, metode, materiale, miljø og måling.
+  - **FMEA (Feilmodus- og effektanalyse)**: Systematisk vurdering av potensielle feil, deres konsekvenser og risiko for å prioritere tiltak.
+  - **Pareto-analyse**: Identifiserer de viktigste årsakene ved å fokusere på de få mest kritiske faktorene.
+  - **Brainstorming**: Strukturert idémyldring for å samle inn mulige årsaker.
+  - **Fault Tree Analysis (Feiltreanalyse)**: Grafisk metode for å analysere årsaker til systemfeil gjennom logiske koblinger.
+  - **Histogram og kontrollkart**: Statistiske verktøy for å identifisere mønstre og avvik i data som kan indikere rotårsaker.
+  - **Scatter diagram**: Viser korrelasjoner mellom potensielle årsaker og feil.
+  - **Seks-M (6M) Metode**: Strukturert gjennomgang av årsaker under kategoriene Maskin, Menneske, Metode, Materiale, Miljø og Måling.
+  - **SWOT-analyse**: Kartlegging av styrker, svakheter, muligheter og trusler knyttet til problemområdet.
+  - **Andon-metoden**: Visuell kontrollmetode for å identifisere og reagere på avvik raskt.
+
+- Lukker avvik med tiltak og ISO-referanser
+- Gir forbedringsforslag og revisjonsstøtte
+- Leser og anvender innhold fra ISO-9001 og veiledningsfiler
+- Overholder GDPR og ISO 9001-krav til dokumentasjon og personvern
+
+## 📂 Mappestruktur
+
+Se `repo-structure.json` for detaljert oversikt over mappene og filformål.
+
