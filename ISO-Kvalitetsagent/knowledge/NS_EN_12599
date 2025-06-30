@@ -1,1 +1,175 @@
+## 1 Scope
+
+This European Standard specifies checks, test methods and measuring instruments in order to verify the fitness for purpose of the installed systems primarily for handing over which will be partially performed before, during and after handing over.
+
+This European Standard enables the choice between simple test methods, when sufficient, and extensive measurements, when necessary.
+
+This European Standard applies to mechanically operated ventilation and air conditioning systems as specified in EN 12792 and comprising any of the following:
+
+- air terminal devices and units,
+- air handling units,
+- air distribution systems (supply, extract, exhaust),
+- fire protection devices,
+- automatic control devices.
+
+When the system is set, adjusted and balanced measurement methods described in this European Standard apply.
+
+This European Standard does not apply to:
+
+- heat generating systems and their control,
+- refrigerating systems and their control,
+- distribution of heating and cooling medium to the air handling units,
+- compressed air supplying systems,
+- water conditioning systems,
+- central steam generating systems for air humidifying,
+- electric supply systems.
+
+This European Standard applies to ventilation and air conditioning systems designed for the maintenance of comfort conditions in buildings. It is not applicable in the case of systems for the control of industrial or other special process environments. In the latter case, however, it may be referred to if the system technology is similar to that of the above mentioned ventilation and air conditioning systems.
+
+This European Standard does not include any requirements concerning the installation contract. However, in order to facilitate the application of this standard, the installation contract should refer to the provisions which are listed in Annex F.
+
+The measuring methods in this European Standard can be used in the frame of the energy inspection of air-conditioning systems according to EU Directive 2010/31/EU \"Energy performance of buildings Directive\" (see EN 15239, EN 15240).
+
+This European Standard may be used for residential and dwelling ventilation systems.
+## 2 Normative references
+
+The following documents, in whole or in part, are normatively referenced in this document and are indispensable for its application. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.
+
+- EN 308, *Heat exchangers — Test procedures for establishing performance of air to air and flue gases heat recovery devices*
+- EN 1507, *Ventilation for buildings — Sheet metal air ducts with rectangular section — Requirements for strength and leakage*
+- EN 1822-1, *High efficiency particulate air filters (EPA, HEPA and ULPA) — Part 1: Classification, performance testing, marking*
+- EN 12097, *Ventilation for buildings — Ductwork — Requirements for ductwork components to facilitate maintenance of ductwork systems*
+- EN 12237, *Ventilation for buildings — Ductwork — Strength and leakage of circular sheet metal ducts*
+- EN 12238, *Ventilation for buildings — Air terminal devices — Aerodynamic testing and rating for mixed flow application*
+- EN 13182, *Ventilation for buildings — Instrumentation requirements for air velocity measurements in ventilated spaces*
+- EN 13779, *Ventilation for non-residential buildings — Performance requirements for ventilation and room-conditioning systems*
+- EN 14239, *Ventilation for buildings — Ductwork — Measurement of ductwork surface area*
+- EN 15423:2008, *Ventilation for buildings — Fire precautions for air distribution systems in buildings*
+- EN 15726, *Ventilation for buildings — Air diffusion — Measurements in the occupied zone of air conditioned/ventilated rooms to evaluate thermal and acoustic conditions*
+- EN 15780, *Ventilation for buildings — Ductwork — Cleanliness of ventilation systems*
+- EN 60584-1, *Thermocouples — Part 1: Reference tables (IEC 60584-1)*
+- EN 60584-2, *Thermocouples — Part 2: Tolerances (IEC 60584-2)*
+- EN 60751, *Industrial platinum resistance thermometers and platinum temperature sensors (IEC 60751)*
+- EN 61672-1, *Electroacoustics — Sound level meters — Part 1: Specifications (IEC 61672-1)*
+- EN ISO 3740, *Acoustics — Determination of sound power levels of noise sources — Guidelines for the use of basic standards (ISO 3740)*
+- EN ISO 3744, *Acoustics — Determination of sound power levels and sound energy levels of noise sources using sound pressure — Engineering methods for an essentially free field over a reflecting plane (ISO 3744)*
+- EN ISO 3746, *Acoustics — Determination of sound power levels and sound energy levels of noise sources using sound pressure — Survey method using an enveloping measurement surface over a reflecting plane (ISO 3746)*
+- EN ISO 3747, *Acoustics — Determination of sound power levels and sound energy levels of noise sources using sound pressure — Engineering/survey methods for use in situ in a reverberant environment (ISO 3747)*
+EN 12599:2012 (E)
+
+EN ISO 7726, *Ergonomics of the thermal environment — Instruments for measuring physical quantities* (ISO 7726)
+
+EN ISO 11201, *Acoustics — Noise emitted by machinery and equipment — Determination of emission sound pressure levels at a work station and at other specified positions in an essentially free field over a reflecting plane with negligible environmental corrections* (ISO 11201)
+
+EN ISO 12569, *Thermal performance of buildings — Determination of air change in buildings — Tracer gas dilution method* (ISO 12569)
+
+ENV 13005, *Guide to the expression of uncertainty in measurement*
+
+CR 1752, *Ventilation for buildings — Design criteria for the indoor environment*
+
+---
+
+## 3 Test and check procedure
+
+The following steps shall be carried out in the given order:
+
+a) completeness checks;  
+b) functional checks;  
+c) functional measurements;  
+d) special measurements;  
+e) report.
+
+Functional checks and measurements on the system can be performed to a variable extent which is specified by means of 4 levels (see Annex C). The choice of a level should be agreed upon and be part of the installation contract.
+
+The special measurements in accordance with Clause 7 and Annex E shall only be carried out when required and especially agreed.
+
+A summary of the different tests and measurements is included in Table 1.
+
+| Required Steps | Purpose | Activities | Annexes |
+|----------------|---------|------------|---------|
+| **Step a** Completeness checks | To ensure that the ventilating and air conditioning system has been installed entirely in accordance with contract | 1. Comparison of equipment with the installation list  <br> 2. Compliance with technical rules (contract and official)  <br> 3. Accessibility  <br> 4. Cleanliness  <br> 5. Balancing  <br> 6. Air tightness  <br> 7. Documents necessary for operating | Annex A <br> With more specified information on the activities 1 to 7 |
+| **Step b** Functional checks | Verifying the operation of the system | 1. Put system into use <br> 2. Operation of components and system | Annex C: Determination of extent <br> Annex B: Survey of performance of components and systems |
+| **Step c** Functional measurements | Verifying on a statistical basis that the system achieves the values according to design | 1. Determine which measurements and recordings are necessary  <br> 2. Extent of functional measurements, specified by means of classes A, B, C and D <br> 3. Measurements <br> 4. Accompanying measurements (see 6.4) | Annex C: Determination of extent <br> Annex D: Measuring methods and measuring devices |
+| **Step d** Special measurements (if necessary) | In case of doubts concerning the quality of parts of the system after application of steps a to c or especially agreed | 1. Determine which measurements and recordings are necessary <br> 2. Determine uncertainty of the measurements <br> 3. Measurements | Annex D + E: Measuring methods and measuring devices and special measurements |
+| **Step e** Report <br> See chapter 9 | | 1. Report <br> 2. Handing over the report | Annex A: Example of completeness check report <br> Annex I: Examples of measuring protocols |
+## 4 Completeness checks
+
+The completeness check is intended to assure that installation is done according to specification and in compliance with the relevant technical rules.
+
+The following checks are included:
+
+- Comparison of the delivered system with the specification, both with regard to volume and material and, if necessary, also with regard to characteristics and spare parts.
+- Check of compliance with legal and specified technical rules.
+- Check of the accessibility of the system especially with regard to operation, cleaning and maintenance according to EN 12097.
+- Check of the cleanliness of the system as specified in EN 15780 also in respect to air handling units and system if especially agreed.
+- Check that all documents necessary for operation are available.
+- Check that the balancing has been done.
+- Check that the air tightness test has been done.
+
+A description of the completeness check is included in Annex A.
+
+---
+
+## 5 Functional checks
+
+### 5.1 General
+
+The purpose of the functional check is to prove the operation of installation in different operational conditions in compliance with the relevant technical rules and the specification. The check shows whether the particular elements of the system such as filters, fans, heat exchangers, coolers, humidifiers etc. have been properly installed.
+
+### 5.2 Put system into use
+
+Put the system in running, adjusted and safe condition.
+
+Adjustment protocols and operation instructions shall be available.
+
+### 5.3 Procedure
+
+Functional checks shall be carried out on every kind of installed equipment.
+
+Before starting the checks, a checklist shall be drawn up.
+
+The extent of functional checks is defined in Annex C.
+
+The locations for the checks shall be the subject of prior agreement by the parties concerned.
+
+Instruction for the procedure and a list of usual functional checks are given in Annex B.
+### Explanations
+- 0 measurement not necessary  
+- 1 to carry out in all cases  
+- 2 to carry out only in the case of contracted agreement  
+
+Figures 0-2 indicate whether there has to be a test within the stage of functional measurements during the handing over. Some of the tests are already done by the installer prior to the handing over and the documentation shall be verified in the completeness check.
+
+- C: cool  
+- D: dehumidify  
+- F: filter  
+- H: heat  
+- M: humidify (moisture)  
+- Z: without any thermodynamic air handling functions (zero)
+
+---
+
+### 6.3 Procedure
+
+Before starting the functional measurement, the measuring locations shall be specified and the procedures and measuring devices shall be agreed upon and given in the technical documents.
+
+The number of measuring points in a room should take into account the floor area and the measured parameters. At least one measuring position is required for measurements in rooms of area up to 20 m²; larger rooms should be subdivided accordingly. For the measurements in the room, the measuring positions in the occupied zone shall be agreed between the parties concerned, preferably at positions intended for intensive occupancy.
+
+With regard to the selection of the measuring instruments the overall uncertainty shall be taken into account. Calibrated devices shall be used.
+
+The indoor climate factors and air flow rates, heating, cooling and humidifying performances, electrical characteristics and other design data shall be measured at the ventilation system design air flow rate. The permissible uncertainties of the measured values are given in Table 3.
+
+#### Table 3 — Permissible uncertainty of the measurement
+
+| Parameter | Uncertainty* |
+|------------|-------------|
+| Air flow rate, each individual room | ± 15 % |
+| Air flow rate, each system | ± 10 % |
+| Supply air temperature | ± 2 °C |
+| Relative humidity [RH] | ± 15 % RH |
+| Air velocity in occupied zone | ± 0.05 m/s |
+| Air temperature in occupied zone | ± 1.5 °C |
+| A-weighted sound pressure level in the room | ± 3 dBA |
+
+> *) This European Standard does not define tolerances for the design values itself. The result is accepted when the design value is in the range of the uncertainty of the measurement.
 
