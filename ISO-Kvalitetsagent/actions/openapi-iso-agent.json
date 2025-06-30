@@ -1,93 +1,216 @@
-{
-  "openapi": "3.1.0",
-  "info": {
-    "title": "ISO Kvalitetsagent Actions",
-    "description": "GPT-handlinger for å lukke avvik og foreslå tiltak i henhold til ISO 9001",
-    "version": "1.0.0"
-  },
-  "servers": [
-    {
-      "url": "https://api.example.com",
-      "description": "Eksempel server for API"
-    }
-  ],
-  "paths": {
-    "/lukk-avvik": {
-      "post": {
-        "operationId": "lukkAvvik",
-        "summary": "Lukk et registrert avvik",
-        "description": "Brukes for å dokumentere lukking av et avvik med rotårsak, tiltak og ISO-punkt.",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Avvik"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Avvik lukket"
-          }
-        }
-      }
-    },
-    "/foresla-tiltak": {
-      "post": {
-        "operationId": "foreslaTiltak",
-        "summary": "Foreslå tiltak basert på rotårsak",
-        "description": "Analyserer rotårsak og ISO-punkt og foreslår relevante tiltak.",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tiltaksforslag"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Tiltak foreslått"
-          }
-        }
-      }
-    }
-  },
-  "components": {
-    "schemas": {
-      "Avvik": {
-        "type": "object",
-        "properties": {
-          "avvik_id": { "type": "string" },
-          "beskrivelse": { "type": "string" },
-          "rotårsak": { "type": "string" },
-          "tiltak": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "iso_krav": {
-            "type": "object",
-            "properties": {
-              "punkt": { "type": "string" },
-              "beskrivelse": { "type": "string" }
-            }
-          },
-          "lukket_dato": { "type": "string", "format": "date" }
-        },
-        "required": ["avvik_id", "beskrivelse", "rotårsak", "tiltak", "iso_krav"]
-      },
-      "Tiltaksforslag": {
-        "type": "object",
-        "properties": {
-          "rotårsak": { "type": "string" },
-          "iso_punkt": { "type": "string" }
-        },
-        "required": ["rotårsak", "iso_punkt"]
-      }
-    }
-  }
-}
+openapi: "3.1.0"
+info:
+  title: "NexusSolve Kvalitetsagent Actions"
+  description: "GPT-handlinger for å lukke avvik, foreslå tiltak, og støtte kontinuerlig forbedring, inkludert risikostyring og prosessforbedring"
+  version: "1.0.0"
+servers:
+  - url: "https://api.example.com"
+    description: "Eksempel server for NexusSolve API"
+paths:
+  /lukk-avvik:
+    post:
+      operationId: "lukkAvvik"
+      summary: "Lukk et registrert avvik"
+      description: "Brukes for å dokumentere lukking av et avvik med rotårsak, tiltak og ISO-punkt."
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Avvik"
+      responses:
+        200:
+          description: "Avvik lukket"
+  /foresla-tiltak:
+    post:
+      operationId: "foreslaTiltak"
+      summary: "Foreslå tiltak basert på rotårsak"
+      description: "Analyserer rotårsak og ISO-punkt og foreslår relevante tiltak."
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Tiltaksforslag"
+      responses:
+        200:
+          description: "Tiltak foreslått"
+  /hent-metodeoversikt:
+    get:
+      operationId: "hentMetodeoversikt"
+      summary: "Hent metodeoversikt for Feil- og Rotårsaksanalyse"
+      description: "Henter en oversikt over tilgjengelige analysemetoder for feil- og rotårsaksanalyse."
+      responses:
+        200:
+          description: "Metodeoversikt hentet"
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    title:
+                      type: "string"
+                    description:
+                      type: "string"
+                    file:
+                      type: "string"
+  /hent-faq:
+    get:
+      operationId: "hentFaq"
+      summary: "Hent FAQ for Feil- og Rotårsaksanalyse"
+      description: "Henter ofte stilte spørsmål og svar relatert til feil- og rotårsaksanalyse."
+      responses:
+        200:
+          description: "FAQ hentet"
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    question:
+                      type: "string"
+                    answer:
+                      type: "string"
+  /oppdater-faq:
+    post:
+      operationId: "oppdaterFaq"
+      summary: "Oppdater svar i FAQ"
+      description: "Brukes for å oppdatere et svar i FAQ for feil- og rotårsaksanalyse."
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+              properties:
+                question:
+                  type: "string"
+                answer:
+                  type: "string"
+      responses:
+        200:
+          description: "FAQ oppdatert"
+  /generer-rapport:
+    post:
+      operationId: "genererRapport"
+      summary: "Generer rapport basert på valgt analysemetode"
+      description: "Generer en rapport som oppsummerer analysen basert på den valgte metoden."
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+              properties:
+                metode:
+                  type: "string"
+                data:
+                  type: "object"
+      responses:
+        200:
+          description: "Rapport generert"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  reportId:
+                    type: "string"
+                  summary:
+                    type: "string"
+                  details:
+                    type: "string"
+components:
+  schemas:
+    Avvik:
+      type: "object"
+      properties:
+        avvik_id:
+          type: "string"
+        beskrivelse:
+          type: "string"
+        rotårsak:
+          type: "string"
+        tiltak:
+          type: "array"
+          items:
+            type: "string"
+        iso_krav:
+          type: "object"
+          properties:
+            punkt:
+              type: "string"
+            beskrivelse:
+              type: "string"
+        lukket_dato:
+          type: "string"
+          format: "date"
+      required:
+        - "avvik_id"
+        - "beskrivelse"
+        - "rotårsak"
+        - "tiltak"
+        - "iso_krav"
+    Tiltaksforslag:
+      type: "object"
+      properties:
+        rotårsak:
+          type: "string"
+        iso_punkt:
+          type: "string"
+      required:
+        - "rotårsak"
+        - "iso_punkt"
+knowledge:
+  kunnskapsbank:
+    - name: "Feil- og Rotårsaksanalyse: Metodeoversikt"
+      description: "Detaljert oversikt over sentrale analysemetoder for å finne og forstå feil, årsaker og sammenhenger."
+      content:
+        - title: "1. 5 WHYs (Fem Hvorfor)"
+          file: "/mnt/data/Feil_Og_Rotarsaksanalyse_Metodeoversikt.md"
+        - title: "2. Ishikawa-diagram (Fiskebensdiagram)"
+          file: "/mnt/data/Feil_Og_Rotarsaksanalyse_Metodeoversikt.md"
+        - title: "3. FMEA (Failure Mode and Effects Analysis)"
+          file: "/mnt/data/Feil_Og_Rotarsaksanalyse_Metodeoversikt.md"
+        - title: "4. Pareto-analyse (80/20-regel)"
+          file: "/mnt/data/Feil_Og_Rotarsaksanalyse_Metodeoversikt.md"
+        - title: "5. Root Cause Analysis (RCA)"
+          file: "/mnt/data/Feil_Og_Rotarsaksanalyse_Metodeoversikt.md"
+        - title: "6. Historisk/trend-analyse"
+          file: "/mnt/data/Feil_Og_Rotarsaksanalyse_Metodeoversikt.md"
+        - title: "7. Event Tree / Fault Tree Analysis (ETA / FTA)"
+          file: "/mnt/data/Feil_Og_Rotarsaksanalyse_Metodeoversikt.md"
+        - title: "8. DMAIC (Six Sigma)"
+          file: "/mnt/data/Feil_Og_Rotarsaksanalyse_Metodeoversikt.md"
+        - title: "9. Logisk/hypotese-basert analyse"
+          file: "/mnt/data/Feil_Og_Rotarsaksanalyse_Metodeoversikt.md"
+    - name: "FAQ – Feil Og Rotårsaksanalyse"
+      description: "Svar på ofte stilte spørsmål om feil- og rotårsaksanalyse, metodevalg, dokumentasjon og beste praksis."
+      content:
+        - title: "1. Hva Er Formålet Med Feil- Og Rotårsaksanalyse?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "2. Når Skal Jeg Bruke Rotårsaksanalyse?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "3. Hvilken Analysemetode Bør Jeg Velge?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "4. Må Jeg Dokumentere Analysen?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "5. Hvem Har Ansvar For Å Gjennomføre Rotårsaksanalyse?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "6. Hva Gjør Jeg Hvis Jeg Er Usikker På Hvilken Metode Som Passer?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "7. Kan Jeg Kombinere Flere Metoder?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "8. Hva Er Fordelen Med Å Dokumentere Rotårsaksanalyse?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "9. Hvor Lenge Skal Dokumentasjonen Bevares?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "10. Hva Gjør Jeg Hvis Feilen Gjentar Seg Etter Analyse Og Tiltak?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+        - title: "11. Hvor Finner Jeg Mer Informasjon Om Metoder?"
+          file: "/mnt/data/FAQ_Feil_Og_Rotarsaksanalyse.md"
+
