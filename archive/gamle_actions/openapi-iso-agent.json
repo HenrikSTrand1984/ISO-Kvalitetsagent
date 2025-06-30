@@ -1,0 +1,93 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ISO Kvalitetsagent Actions",
+    "description": "GPT-handlinger for å lukke avvik og foreslå tiltak i henhold til ISO 9001",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.example.com",
+      "description": "Eksempel server for API"
+    }
+  ],
+  "paths": {
+    "/lukk-avvik": {
+      "post": {
+        "operationId": "lukkAvvik",
+        "summary": "Lukk et registrert avvik",
+        "description": "Brukes for å dokumentere lukking av et avvik med rotårsak, tiltak og ISO-punkt.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Avvik"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Avvik lukket"
+          }
+        }
+      }
+    },
+    "/foresla-tiltak": {
+      "post": {
+        "operationId": "foreslaTiltak",
+        "summary": "Foreslå tiltak basert på rotårsak",
+        "description": "Analyserer rotårsak og ISO-punkt og foreslår relevante tiltak.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tiltaksforslag"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Tiltak foreslått"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Avvik": {
+        "type": "object",
+        "properties": {
+          "avvik_id": { "type": "string" },
+          "beskrivelse": { "type": "string" },
+          "rotårsak": { "type": "string" },
+          "tiltak": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "iso_krav": {
+            "type": "object",
+            "properties": {
+              "punkt": { "type": "string" },
+              "beskrivelse": { "type": "string" }
+            }
+          },
+          "lukket_dato": { "type": "string", "format": "date" }
+        },
+        "required": ["avvik_id", "beskrivelse", "rotårsak", "tiltak", "iso_krav"]
+      },
+      "Tiltaksforslag": {
+        "type": "object",
+        "properties": {
+          "rotårsak": { "type": "string" },
+          "iso_punkt": { "type": "string" }
+        },
+        "required": ["rotårsak", "iso_punkt"]
+      }
+    }
+  }
+}
