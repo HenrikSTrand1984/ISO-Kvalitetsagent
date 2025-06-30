@@ -1,0 +1,27 @@
+{
+  "operationId": "genererIshikawaDiagram",
+  "summary": "Generer Ishikawa-diagram basert på årsaksdata",
+  "description": "Brukes for å generere et Ishikawa-diagram (Fiskebensdiagram) for rotårsaksanalyse, som visualiserer årsaker som bidrar til et problem.",
+  "requestBody": {
+    "required": true,
+    "content": {
+      "application/json": {
+        "schema": {
+          "$ref": "#/components/schemas/IshikawaData"
+        }
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "description": "Ishikawa-diagram generert",
+      "content": {
+        "application/json": {
+          "schema": {
+            "$ref": "#/components/schemas/IshikawaDiagramResultat"
+          }
+        }
+      }
+    }
+  }
+}
