@@ -173,3 +173,42 @@ The indoor climate factors and air flow rates, heating, cooling and humidifying 
 
 > *) This European Standard does not define tolerances for the design values itself. The result is accepted when the design value is in the range of the uncertainty of the measurement.
 
+## 6.4 Measuring methods and measuring devices
+
+### 6.4.1 General
+Annex D provides information concerning measuring methods and devices which are adequate for the functional measurement.
+
+In the case of measurements in ducts and air conditioning systems with negative pressure, measuring errors due to an infiltration by the measuring device opening of air shall be avoided.
+
+In any case, the openings in the ducts have to be closed after measuring.
+
+---
+
+### 6.4.2 Measurement of the air flow rate
+The air flow rate can be evaluated by different methods. Usually, it is calculated from the air velocity and the corresponding cross-section. The air velocity can be measured by means of an appropriate anemometer, Pitot Static Tube (Prandtl tube) or a pressure drop across a throttling device.
+
+Air flow rates should be measured at an appropriate cross-section of a duct. As air velocity is seldom uniform, it should be measured at an appropriate number of locations in the cross-section and averaged for the mean velocity.
+
+The total air flow rate of a system should preferably be measured within the air handling unit or fan casing with integrated measurement if equipment like inlet nozzles is available.
+
+For air terminal devices, other methods (e.g. bag method, reference pressure methods or funnel measurement) can be applied. The air terminal devices with a low pressure drop should be measured by means of the compensation method or other methods with a non-significant pressure drop.
+
+The different measuring methods and devices are described in D.1.
+
+---
+
+### 6.4.3 Measurement of the ductwork leakage
+The leakage of the ductwork is important for the energy efficiency of the complete air conditioning system. The tightness class according to EN 1507 and EN 12237 shall be checked.
+
+In large and complex air duct systems, the leakage can only be measured in a part of the system. The leakage measurement shall be performed while the duct is being installed and accessible.
+
+After start of operation a second tightness test can be necessary, only if an irregularity happens during the start up. (In the case of a malfunction e.g. of fire dampers, the pressure can exceed the allowed pressure and damage the ductwork.)
+
+The measuring methods and devices are described in D.8.
+
+---
+
+### 6.4.4 Measurement of the indoor air velocity
+Indoor air flow is usually a turbulent flow. The air velocity varies from place to place within the room, the variations being random with regard to magnitude and direction. Therefore, an exact measurement of the air velocity is complicated. Generally, it is sufficient to measure the mean air velocity at selected positions (see D.2.1).
+
+In rooms up to approximately 20 m² floor area, one measurement position is sufficient. Large rooms (e.g. landscaped offices) should be measured on the similar basis to the foregoing and positions in the occupied zone should be chosen where higher air velocities can be expected. Measurements should preferably be taken at positions intended for intensive occupancy, e.g. at the desk in an office.
